@@ -60,30 +60,35 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """ 
-𝕙𝕖𝕪  𝕥𝕙𝕖𝕣𝕖!.
-telegram Group management with lots of features.
-───────────────────────
-× Uptime: 8days, 10h:36m:16s
-×  `{}` users, across `{}` chats..
-───────────────────────
-✪ Bot For help You Manage & Protect Your Groups.
-➼ So What U Waiting For Add Me To Ur chat
-───────────────────────
+𝙷𝙴𝚈 𝙳𝚄𝙳𝙴 𝙸𝙰𝙼 𝙰 𝙶𝚁𝙾𝚄𝙿 𝙼𝙰𝙽𝙰𝙶𝙴𝙼𝙴𝙽𝚃 𝙱𝙾𝚃
+𝚆𝙸𝚃𝙷 𝙻𝙾𝚃 𝙾𝙵 𝙵𝙴𝙰𝚃𝚄𝚁𝙴𝚂. 𝙹𝚄𝚂𝚃 𝙰𝙳𝙳 𝙼𝙴 𝚃𝙾
+𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 𝚃𝙷𝙴𝙽 𝚂𝙴𝙴 𝙼𝚈 𝙿𝙾𝚆𝙴𝚁𝚂 𝙳𝚄𝙳𝙴🌟
+  ╭╮╱╱╱╭╮╱╭╮╭━╮╱╭╮╭━━━╮
+
+┃┃╱╱╱┃┃╱┃┃┃┃╰╮┃┃┃╭━╮┃
+
+┃┃╱╱╱┃┃╱┃┃┃╭╮╰╯┃┃┃╱┃┃
+
+┃┃╱╭╮┃┃╱┃┃┃┃╰╮┃┃┃╰━╯┃
+
+┃╰━╯┃┃╰━╯┃┃┃╱┃┃┃┃╭━╮┃
+
+╰━━━╯╰━━━╯╰╯╱╰━╯╰╯╱╰╯
 """
 buttons = [
     [
         InlineKeyboardButton(
-            text="Aᴅᴅ Mᴇ 🥰", url="t.me/FINAL_STRIKER_BOT?startgroup=true"),
+            text="➕ᎪᎠᎠ ᎷᎬ Ͳϴ ᎽϴႮᎡ ᏀᎡϴႮᏢ➕", url="http://t.me/{temp.U_NAME}?startgroup=true"),
     ],
     [
-        InlineKeyboardButton(text="Cᴏᴍᴍᴀɴᴅs ❔", callback_data="help_back"),
+        InlineKeyboardButton(text="❓ᏟϴᎷᎷᎪΝᎠՏ❓", callback_data="help_back"),
     ],
     [
-        InlineKeyboardButton(text="Dᴇᴠʟᴏᴘᴇʀ🤓", url="https://t.me/TheTelegrampro"),
+        InlineKeyboardButton(text="🔗ᎠᎬᏙᎬᏞϴᏢᎬᎡ🔗", url="https://t.me/balaSmurugan"),
     ],
     [
-        InlineKeyboardButton(text="❤️𝕭𝖔𝖙 𝖀𝖕𝖉𝖆𝖙𝖊$💙", url="t.me/Thanimaibots"),
-        InlineKeyboardButton(text="✨ 𝐒𝐮𝐩𝐩𝐨𝐫𝐭✨", url="t.me/Thanimaisupport"),
+        InlineKeyboardButton(text="🎀ႮᏢᎠᎪͲᎬՏ🎀", url="https://t.me/All_in_ones_01"),
+        InlineKeyboardButton(text="✨ՏႮᏢᏢϴᎡͲ✨", url="https://t.me/All_in_ones_01"),
     ],
     [
         InlineKeyboardButton(text="⚠️𝗦𝗼𝘂𝗿𝗰𝗲⚠️🖥️", callback_data="source_"
@@ -227,10 +232,10 @@ def start(update: Update, context: CallbackContext):
             reply_markup=InlineKeyboardMarkup(
                 [
                   [
-                  InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ", url="https://t.me/thanimaisupport")
+                  InlineKeyboardButton(text="ՏႮᏢᏢϴᎡͲ", url="https://t.me/All_in_ones_01")
                   ],
                   [
-                  InlineKeyboardButton(text="Uᴘᴅᴀᴛᴇs", url="https://t.me/thanimaibots")
+                  InlineKeyboardButton(text="ႮᏢᎠᎪͲᎬՏ", url="https://t.me/All_in_ones_01")
                   ]
                 ]
             ),
@@ -400,8 +405,8 @@ def Source_about_callback(update, context):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text=""" Hi..🤗 I'm *Lonely king*
-                 \nMy source code is private  [support](t.me/thanimaisupport) .""",
+            text=""" Hi..🤗 I'm *Luna*
+                 \nMy source code is private  [ႮᏢᎠᎪͲᎬՏ](https://t.me/All_in_ones_01) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
