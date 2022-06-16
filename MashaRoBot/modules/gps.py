@@ -50,3 +50,4 @@ __handlers__ = [GPS_HANDLER]
   __help__ = """
  ❍ /gps <place name>*:* 
  ❍ Use this command to use this this mod⭕
+"""
