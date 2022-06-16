@@ -54,3 +54,10 @@ def wiki(update: Update, context: CallbackContext):
 
 WIKI_HANDLER = DisableAbleCommandHandler("wiki", wiki)
 dispatcher.add_handler(WIKI_HANDLER)
+
+
+ __mod_name__ = "ᴡɪᴋɪᴘᴇᴅɪᴀ🔍"
+
+ __help__ = """
+ ❍ /wiki <text>*:* Perform a wikipedia search
+"""
