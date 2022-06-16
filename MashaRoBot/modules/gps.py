@@ -45,9 +45,4 @@ dispatcher.add_handler(GPS_HANDLER)
 __command_list__ = ["gps"]
 __handlers__ = [GPS_HANDLER]
 
-  __mod_name__ = "ɢᴘꜱ🔎"
-
-  __help__ = """
- ❍ /gps <place name>*:* 
- ❍ Use this command to use this this mod⭕
-"""
+  
