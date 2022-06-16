@@ -22,3 +22,13 @@ def covid(update: Update, context: CallbackContext):
 
 COVID_HANDLER = DisableAbleCommandHandler(["covid", "corona"], covid)
 dispatcher.add_handler(COVID_HANDLER)
+
+
+__mod_name__ = "ᴄᴏᴠɪᴅ-19🦠"
+
+
+__help__ = """
+ ❍ /covid or /corona 
+ ❍ ex: /covid or /corona india
+ ❍ Use this command to get corona informations
+"""
